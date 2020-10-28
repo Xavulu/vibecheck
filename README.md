@@ -1,4 +1,4 @@
-![vibecheck logo](vibecheck.png)
+![vibecheck logo](vibecheck.gif)
 
 ### vibecheck (wip)
 > a url verification microservice that may or may not be useful to anyone. 
