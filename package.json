@@ -1,0 +1,22 @@
+{
+  "name": "vibecheck",
+  "version": "1.0.0",
+  "description": "\"a simple url checking microservice\"",
+  "main": "vibecheck.js",
+  "scripts": {
+    "start": "nodemon vibecheck.js"
+  },
+  "author": "xavier fernandez",
+  "license": "MIT",
+  "type": "module",
+  "private": false,
+  "dependencies": {
+    "@hapi/hapi": "^20.0.1",
+    "dotenv": "^8.2.0",
+    "keyv": "^4.0.3",
+    "safe-browse-url-lookup": "^0.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
