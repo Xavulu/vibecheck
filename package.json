@@ -5,6 +5,7 @@
   "main": "vibecheck.js",
   "scripts": {
     "start": "nodemon vibecheck.js"
+    
   },
   "author": "xavier fernandez",
   "license": "MIT",
@@ -13,7 +14,9 @@
   "dependencies": {
     "@hapi/hapi": "^20.0.1",
     "dotenv": "^8.2.0",
-    "keyv": "^4.0.3",
+    "hapi-pulse": "^3.0.0",
+    "jest": "^26.6.3",
+    "redis": "^3.0.2",
     "safe-browse-url-lookup": "^0.1.0"
   },
   "devDependencies": {

@@ -1,0 +1,10 @@
+{
+    "apps" : [{
+      "name"            : "vibecheck",
+      "script"          : "vibecheck.js",
+      "instances"       : 3,
+      "exec_mode"       : "cluster",
+      "listen_timeout"  : 8000
+    }]
+}
+  
