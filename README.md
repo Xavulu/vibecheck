@@ -30,7 +30,7 @@ If you want to test other malicious urls against it you can use one from [openph
 ``` 
 {"https://www.google.com":false}
 ```
-In both cases the boolean value denotes whether the url was malicious ; false meaning it was true meaning it is. 
+In both cases the boolean value denotes whether the url was malicious ; false meaning it wasn't true meaning it is. 
 
 I also uncluded a vibecheck.json config file for running this application in a three node cluster in the background with [pm2](https://github.com/Unitech/pm2). Granted a process manager/load balancer written in javascript is probably not the best idea but its here if you want it. The app is also setup to scan for herokus redis environmental variable if you choose to host it that way and have rdis provisioned (I havent tested this out yet.....)
 
